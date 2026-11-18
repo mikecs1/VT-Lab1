@@ -9,6 +9,19 @@
   <body>
     <div id="app"></div>
     <div id="hud"></div>
+    <div id="tooltip"></div>
     <script type="module" src="/src/main.js"></script>
+    <div id="controls">
+  <label>size <input type="range" id="size" min="0.005" max="0.08" step="0.001" value="0.03"></label>
+  <select id="dataset">
+    <option value="pca">pca (real)</option>
+    <option value="synth_100k">synth_100k</option>
+    <option value="synth_500k">synth_500k</option>
+  </select>
+  <select id="variant">
+    <option value="points">points + shader</option>
+    <option value="spheres">instanced spheres</option>
+  </select>
+</div>
   </body>
 </html>
