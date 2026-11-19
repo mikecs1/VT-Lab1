@@ -36,3 +36,15 @@
 - Why Okabe-Ito: designed to be distinguishable under the common CVD types. It only has 8 colours for my 9 clusters, so cluster 8 shares cluster 0's blue and is told apart by shape. Cluster 8 is tiny and far from cluster 0, so confusion is unlikely.
 - Costs: the 8th colour is grey, which is also the colour that uncertain cells fade towards. [say how bad that was in practice]
 - How I checked it: [fill in with what you really saw: screenshots under deuteranopia/protanopia/tritanopia/greyscale in docs/img/; which pairs were hard; keyboard run-through of T2/T4/T9 and what was unreachable; table read by VoiceOver or the accessibility tree; contrast numbers]
+
+
+D9: Peer test (R7)
+Tester: David Odaiasu, a classmate. 
+Date: 19.11.2026. Had he seen CellScope before? Yes
+Method: I only observed and did not help. The tasks were given as domain questions, not as instructions. I wrote down the time, the errors and where he hesitated.
+Task	Question as asked	What a correct answer looks like	Time	Errors	Hesitations / what he said	Solved?
+T2	"Where are the cells that express GNLY?"	He types GNLY and points to one group of cells, which should be the NK cluster (4)	
+T4	"Which genes separate the NK cells from the CD8 T cells?"	He uses the dot plot with A = 4 and B = 5 and names genes that are big and bright in one column only (for example GZMB, PRF1, GNLY for NK; CCL5, GZMK for CD8 T)	
+T9	"Where is the most uncertain region of the data?"	He uses the slider and points to cells at the borders between clusters, or stray cells inside another cluster	
+Did he notice that "(?)" means unsure, and that the slider measures agreement with my clustering?  
+Limits: one tester, so this shows problems but does not measure how usable the interface is.
